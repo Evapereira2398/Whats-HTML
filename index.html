@@ -9,9 +9,73 @@
 </head>
 <body>
     <div class="container">
-        <div class="leftSide"></div>
+
+        <!-- Coluna da esquerda -->
+        <div class="leftSide">
+            <div class="header">
+                <div class="userimg">
+                    <img src="images/user.jpg" alt="Imagem do usuário logado" class="cover">
+                </div>
+                <ul class="nav_icons">
+                    <li><ion-icon name="grid-outline"></ion-icon></li>
+                    <li><ion-icon name="chatbox-outline"></ion-icon></li>
+                    <li><ion-icon name="ellipsis-vertical-outline"></ion-icon></li>
+                </ul>
+            </div>
+
+            <!-- Input de busca -->
+            <div class="search_chat">
+                <div>
+                    <input type="text" placeholder="Pesquisar ou começar uma nova conversa">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+            </div>
+
+            <!-- Lista dos chats -->
+            <div class="chatlist">
+
+                <!-- Chat 1 -->
+                <div class="block-active">
+                    <div class="imgbox">
+                        <img src="images/img1.jpg" alt="Foto do perfil do usuário" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Evanderson Pereira</h4>
+                            <p class="time">10:56</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Criando aplicação do WhatsApp com HTML & CSS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat 2 -->
+                <div class="block">
+                    <div class="imgbox">
+                        <img src="images/img2.jpg" alt="Foto do perfil do usuário" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Ana Beatriz</h4>
+                            <p class="time">08:56</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Criando chats de exemplos</p>
+                            <b>1</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coluna da direita -->
         <div class="rightSide"></div>
     </div>
+
+    <!-- Script externo dos icones -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
 
